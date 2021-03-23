@@ -11,7 +11,9 @@
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
         <title>{% block title %}Quereka - An open-source Q&A website for coders{% endblock %}</title>
     </head>
-    <body class="bg-light">
+    
+        <body>
+            
         <div class="container" style="max-width:700">
             <div class="card shadow-sm" style="margin-top: 20px">
                 <div class="card-header">
@@ -51,6 +53,9 @@
             <a href="/about" class="text-secondary">About</a> |
             <a href="/leaderboard" class="text-secondary">Leaderboard</a>
         </div>
+
+        
+
     </body>
     <script>
         axios.defaults.xsrfCookieName = 'csrftoken';
