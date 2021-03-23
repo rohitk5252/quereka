@@ -1,4 +1,4 @@
-## These are just some notes I took to write a script.
+## These are just some notes I took to write the script.
 from users.models import User
 
 f = User.objects.filter(username='')[0]
