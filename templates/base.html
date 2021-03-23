@@ -9,14 +9,14 @@
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <!-- development version, includes helpful console warnings -->
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-        <title>{% block title %}CSQA - An open-source Q&A website for coders{% endblock %}</title>
+        <title>{% block title %}Quereka - An open-source Q&A website for coders{% endblock %}</title>
     </head>
     <body class="bg-light">
         <div class="container" style="max-width:700">
             <div class="card shadow-sm" style="margin-top: 20px">
                 <div class="card-header">
                     <h6 style="margin-bottom: 0; margin-top: 7; display: inline-block">
-                        <a href="/" class="text-dark">CSQA
+                        <a href="/" class="text-dark">Quereka
                             {% if not current_user.is_authenticated %}
                             <span class="site-title-second-half"> - An open-source Q&A website for coders</span>
                             {% endif %}
@@ -47,7 +47,7 @@
             {% else %}
                 <a href="/accounts/signup" class="text-secondary">Sign up / log in</a> | 
             {% endif %}
-                <a href="https://github.com/ykdojo/csqa" class="text-secondary" target="_blank">Source code</a> | 
+                <a href="https://github.com/rohitk5252/quereka" class="text-secondary" target="_blank">Source code</a> | 
             <a href="/about" class="text-secondary">About</a> |
             <a href="/leaderboard" class="text-secondary">Leaderboard</a>
         </div>

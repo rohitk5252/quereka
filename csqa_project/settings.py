@@ -155,6 +155,8 @@ STATICFILES_DIRS = [
 
 # The following three constants (AUTHENTICATION_BACKENDS, SITE_ID,
 # and LOGIN_REDIRECT_URL) are for django-allauth.
+# rohit added
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
     "allauth.account.auth_backends.AuthenticationBackend",
