@@ -13,14 +13,14 @@
     </head>
     
         <body>
-            
+        
         <div class="container" style="max-width:700">
             <div class="card shadow-sm" style="margin-top: 20px">
                 <div class="card-header">
                     <h6 style="margin-bottom: 0; margin-top: 7; display: inline-block">
                         <a href="/" class="text-dark">Quereka
                             {% if not current_user.is_authenticated %}
-                            <span class="site-title-second-half"> - An open-source Q&A website for coders</span>
+                            <span class="site-title-second-half"> Welcome</span>
                             {% endif %}
                         </a>
                     </h6>
@@ -42,8 +42,9 @@
                 </div>
             </div>
         </div>
-        <div class="container text-right" style="max-width:700; padding-right:21; padding-top:2; font-size:14; color: #6c757d; margin-bottom: 7px;">
-                <a href="/" class="text-secondary">Home</a> | 
+        </div>   
+        <div class="container text-right" style="max-width:700; padding-right:21; padding-top:2; font-size:14; color: #050505; margin-bottom: 7px;">
+                <a href="/" class="text-primary">Home</a> | 
             {% if current_user.is_authenticated %}
                 <a href="/accounts/logout" class="text-secondary">Log out ({{current_user.username}}, {{current_user.points}} points)</a> | 
             {% else %}

@@ -3,8 +3,10 @@ div.gsc-control-cse.gsc-control-cse-en {
     padding-left: 0 !important;
 }
 body{
-    background-color: #c3cfe2;
+    background : linear-gradient(#3e5264,#994283);
 }
+
+
 .search * {
     box-sizing: content-box;
 }
@@ -43,12 +45,12 @@ a.done:link, a.done:hover, a.done:visited, a.done:active{
     margin-left: 10px;
 }
 
-.quereka-nav {
+/* .quereka-nav {
     position: relative;
     top: 7px;
     font-size: 13;
     margin-right: 5;
-}
+} */
 
 @media (max-width: 615px){
     .site-title-second-half{
