@@ -1,0 +1,1 @@
+web: gunicorn quereka_project.wsgi --log-file -  

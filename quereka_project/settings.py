@@ -30,10 +30,10 @@ DEBUG = not HEROKU
 if DEBUG:
     ALLOWED_HOSTS = ['*']
 else:
-    ALLOWED_HOSTS = ['helpdeskbro.herokuapp.com', 'quereka.me' ,  'www.quereka.me']
+    ALLOWED_HOSTS = ['querekaproject.herokuapp.com', 'quereka.me' ,  'www.quereka.me']
 
 
-# Application definition
+#  Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
