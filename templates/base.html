@@ -16,7 +16,7 @@
             
      
         <div class="container"  style="max-width:700">
-            <div class="card shadow-sm" style="margin-top: 20px">
+            <div class="content-div" style="margin-top: 20px">
                 <div class="card-header">
                     <h6 style="margin-bottom: 0; margin-top: 7; display: inline-block">
                         <a href="/" class="text-dark">Quereka
@@ -44,8 +44,9 @@
             </div>
         </div>
         </div>   
+        
         <div class="container text-right" style="max-width:700; padding-right:21; padding-top:2; font-size:14; color: #050505; margin-bottom: 7px; font-size: 15px ; font-weight: bold; ">
-                <a href="/" class="text-primary" >Home</a> | 
+                <!-- <a href="/" class="text-primary" >Home</a> | 
             {% if current_user.is_authenticated %}
                 <a href="/accounts/logout" class="text-secondary" ></a>Log out ({{current_user.username}}, {{current_user.points}} points)</a> | 
             {% else %}
@@ -53,9 +54,21 @@
             {% endif %}
                 <a href="https://github.com/rohitk5252/quereka" class="text-secondary" target="_blank" >Source code</a> | 
             <a href="/about" class="text-secondary" >About</a> |
-            <a href="/leaderboard" class="text-secondary" >Leaderboard</a>
+            <a href="/leaderboard" class="text-secondary" >Leaderboard</a> -->
         </div>
-
+<div class="footer">
+    <div class="int">
+    <a href="/" class="text-primary" >Home</a> | 
+            {% if current_user.is_authenticated %}
+                <a href="/accounts/logout"  ></a>Log out ({{current_user.username}}, {{current_user.points}} points)</a> | 
+            {% else %}
+                <a href="/accounts/signup" >Sign up / log in</a> | 
+            {% endif %}
+                <a href="https://github.com/rohitk5252/quereka"  target="_blank" >Source code</a> | 
+            <a href="/about" >About</a> |
+            <a href="/leaderboard" >Leaderboard</a>
+            </div>
+</div>
         
 
     </body>

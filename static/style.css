@@ -3,10 +3,8 @@ div.gsc-control-cse.gsc-control-cse-en {
   padding-left: 0 !important;
 }
 body {
-  background: linear-gradient(#3e5264, #994283);
-}
-body:hover {
-  background: linear-gradient(#774b6c, #3e5264);
+  background-color: rgb(241, 237, 237);
+  
 }
 .search * {
   box-sizing: content-box;
@@ -48,20 +46,43 @@ a.done:active {
 .answer-block {
   margin-left: 10px;
 }
-/* rohit added for HOVERING SIGNUP PAGE ( see ;ogin.html )  */
+/* Added A Footer */
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8vh;
+  text-decoration: solid;
+  background: #e0e5e9;
+  box-shadow: 1px 1px 20px 3px #51586e, -1px -1px 20px 3px #ffffff;
+  border-radius: 4px;
+  text-;
 
-/* .login-div {
-  margin: auto;
+}
+/* internals of footer div */
+.int{ 
+  padding-top: 7px;
+  text-align: center;
+  font-weight: bold;
+}
+/* .footer:hover {
+  box-shadow: 1px 1px 20px 3px #51586e, -3px -3px 20px 3px #ffffff;
+} */
+
+.content-div {
+  /* margin: auto;
   width: 330px;
   height: 700px;
-  padding: 60px 35px 35px 35px;
-  border-radius: 40px;
+  padding: 60px 35px 35px 35px; */
+  border-radius: 9px;
   background: #ecf0f3;
   box-shadow: 1px 1px 20px 3px #cdced1, -1px -1px 20px 3px #ffffff;
 }
-.login-div:hover {
-  box-shadow: 1px 1px 20px 3px #0c47fa, -3px -3px 20px 3px #ffffff;
+.content-div:hover {
+  box-shadow: 1px 1px 20px 3px #51586e, -3px -3px 20px 3px #ffffff;
 }
+/*  
 .logo {
   background: url(./templates/accounts/brotus.jpg);
   width: 100px;
