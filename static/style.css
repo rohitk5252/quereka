@@ -77,8 +77,9 @@ a.done:active {
   padding: 60px 35px 35px 35px; */
   border-radius: 9px;
   background: #ecf0f3;
-  box-shadow: 1px 1px 20px 3px #cdced1, -1px -1px 20px 3px #ffffff;
+  box-shadow: 1px 1px 20px 3px #51586e, -3px -3px 20px 3px #ffffff;
 }
+
 .content-div:hover {
   box-shadow: 1px 1px 20px 3px #51586e, -3px -3px 20px 3px #ffffff;
 }
